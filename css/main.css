@@ -1,3 +1,32 @@
+/* Space Mono - monospace 400, 700, Lexend Deca - sans-serif 400 */
+
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/spacemonoregular.woff2") format("woff2"),
+       url("../fonts/spacemonoregular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/spacemonobold.woff2") format("woff2"), 
+       url("../fonts/spacemonobold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexenddecaregular.woff2") format("woff2"),
+       url("../fonts/lexenddecaregular.woff") format("woff");
+}
+
 *,
 ::before
 ::after {
@@ -5,10 +34,9 @@
 }
 
 body {
-	font-family: serif;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: normal;
+	font-family: "Space Mono", "Courier New", monospace;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 img {
@@ -29,7 +57,7 @@ img {
 }
 
 .container {
-	width: 1240px;
+	width: 1150px;
 	margin-inline: auto;
 	padding-inline: 20px;
 }
